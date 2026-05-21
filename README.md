@@ -1,4 +1,4 @@
-# 🦷 Lumina Dental — Modern Dental Clinic Landing Page
+# 🦷 Lumina Dental — Modern Dental Clinic Website
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![React](https://img.shields.io/badge/React-18-38bdf8?style=for-the-badge&logo=react&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-fb7185?style=for-the-badge)
 
-**Modern, wellness-odaklı bir diş kliniği için tasarlanmış şık ve duyarlı landing page.**
+**A modern, wellness-first dental clinic website built for real-world small clinics.**
 
 *Designed & Developed by [MCCreative](https://github.com/)*
 
@@ -15,83 +15,83 @@
 
 ---
 
-## ✨ Proje Hakkında
+## ✨ About the Project
 
-**Lumina Dental**, geleneksel diş kliniklerinin soğuk ve steril görünümünden uzaklaşarak hastaları karşılayan sıcak, modern ve güven verici bir dijital deneyim sunmak amacıyla tasarlanmıştır.
+**Lumina Dental** is a fully responsive, multi-section dental clinic website that moves away from the cold and sterile look of traditional clinic websites. It delivers a warm, modern, and trust-inspiring digital experience — designed to convert first-time visitors into patients.
 
-> *"Gülüşünüz Işığınız Olsun"* — Lumina Dental
+> *"Let Your Smile Be Your Light"* — Lumina Dental
 
-Bu proje, **MCCreative** portföyü kapsamında geliştirilmiş olup küçük ve orta ölçekli diş kliniklerine yönelik frontend çözümünün bir örneğidir.
-
----
-
-## 🎯 Özellikler
-
-- 🌟 **Hero Section** — Dikkat çekici başlık, CTA butonları ve hasta rating kartı
-- 🦷 **Uzmanlık Alanları** — Estetik gülüş, implant, ortodonti ve çocuk diş sağlığı
-- 📊 **İstatistik Çubuğu** — Deneyim yılı, puan, hasta sayısı ve hekim sayısı
-- 💬 **Hasta Yorumları** — Gerçekçi testimonialler ile sosyal kanıt
-- 👨‍⚕️ **Ekip Tanıtımı** — Uzman hekimlerin kart bazlı tanıtımı
-- 📅 **Randevu Formu** — Kolay kullanımlı iletişim ve randevu alma formu
-- 📍 **Konum & İletişim** — Adres, telefon, çalışma saatleri ve harita alanı
-- 📱 **Tam Responsive** — Mobil, tablet ve masaüstü uyumlu
-- 🎨 **Glassmorphism** — Modern buzlu cam navbar ve kart efektleri
-- ⚡ **Smooth Animasyonlar** — Hover efektleri ve geçiş animasyonları
+This project is part of the **MCCreative** portfolio, showcasing frontend development and digital design services for small and medium-sized businesses — including dental clinics, private practices, and healthcare providers across Germany and the Basel/Lörrach region.
 
 ---
 
-## 🖼️ Ekran Görüntüleri
+## 🎯 Features
 
-| Hero Section | Uzmanlık Alanları |
-|:---:|:---:|
-| *Ekran görüntüsü eklenecek* | *Ekran görüntüsü eklenecek* |
+- 🌟 **Hero Section** — Bold headline, dual CTA buttons, and a floating patient rating badge
+- 🦷 **Services Section** — Aesthetic smile design, implants, orthodontics, and pediatric dentistry
+- 📊 **Stats Bar** — Years of experience, average rating, patient count, and number of specialists
+- 💬 **Patient Reviews** — Testimonial cards with real social proof
+- 👨‍⚕️ **Team Section** — Expert dentist profiles presented in a clean card layout
+- 📅 **Appointment Form** — Easy-to-use contact and booking form with service selection
+- 📍 **Contact & Location** — Address, phone number, working hours, and Google Maps area
+- 📱 **Fully Responsive** — Optimized for mobile, tablet, and desktop
+- 🎨 **Glassmorphism UI** — Frosted glass navbar and card effects throughout
+- ⚡ **Smooth Animations** — Hover effects, gradient glows, and transitions
 
-| Ekip & Yorumlar | Randevu Formu |
+---
+
+## 🖼️ Screenshots
+
+| Hero Section | Services Section |
 |:---:|:---:|
-| *Ekran görüntüsü eklenecek* | *Ekran görüntüsü eklenecek* |
+| *Screenshot coming soon* | *Screenshot coming soon* |
+
+| Team & Reviews | Appointment Form |
+|:---:|:---:|
+| *Screenshot coming soon* | *Screenshot coming soon* |
 
 ---
 
 ## 🎨 Design System
 
-Bu proje **Vibrant Dental System** tasarım sistemi üzerine inşa edilmiştir.
+This project is built on the **Vibrant Dental System** — a custom design system created specifically for this project.
 
-### Renk Paleti
+### Color Palette
 
-| Rol | Renk | Hex | Kullanım |
-|-----|------|-----|----------|
-| Primary | 🟢 Mint Green | `#2dd4bf` | Ana aksiyonlar, başarı durumları |
-| Secondary | 🔵 Sky Blue | `#38bdf8` | Bilgi elementleri, ikincil aksiyonlar |
-| Tertiary | 🌸 Warm Coral | `#fb7185` | Aksan, "Randevu Al" butonu |
-| Neutral | 🩶 Slate | `#475569` | Gövde metni, ikincil içerik |
-| Background | ⬜ Soft White | `#fcfcfd` | Sayfa arka planı |
+| Role | Color | Hex | Usage |
+|------|-------|-----|-------|
+| Primary | 🟢 Mint Green | `#2dd4bf` | Main actions, success states |
+| Secondary | 🔵 Sky Blue | `#38bdf8` | Informational elements, secondary actions |
+| Tertiary | 🌸 Warm Coral | `#fb7185` | Accents, "Book Appointment" button |
+| Neutral | 🩶 Slate | `#475569` | Body text, secondary content |
+| Background | ⬜ Soft White | `#fcfcfd` | Page background |
 
-### Gradientler
+### Gradients
 
 ```css
-/* Logo gradient */
+/* Logo text gradient */
 background: linear-gradient(135deg, #0c5a50 0%, #0e89bd 100%);
 
-/* Hero arka plan */
+/* Hero background */
 background: linear-gradient(160deg, #f0fdfa 0%, #f8f9ff 50%, #eff4ff 100%);
 
-/* Birincil buton */
+/* Primary button */
 background: linear-gradient(135deg, #006b5f 0%, #00668a 100%);
 
-/* Randevu butonu */
+/* Appointment button */
 background: linear-gradient(135deg, #f9731a 0%, #fb7185 100%);
 ```
 
-### Tipografi
+### Typography
 
-| Stil | Font | Boyut | Ağırlık |
-|------|------|-------|---------|
-| Başlıklar | Montserrat | 48px / 32px (mobil) | 700–800 |
-| Alt başlıklar | Montserrat | 24px | 600 |
-| Gövde metni | Plus Jakarta Sans | 16–18px | 400 |
-| Etiketler | Plus Jakarta Sans | 14px | 700 |
+| Style | Font | Size | Weight |
+|-------|------|------|--------|
+| Display / Headlines | Montserrat | 48px / 32px (mobile) | 700–800 |
+| Subheadings | Montserrat | 24px | 600 |
+| Body text | Plus Jakarta Sans | 16–18px | 400 |
+| Labels & buttons | Plus Jakarta Sans | 14px | 700 |
 
-### Efektler
+### Effects
 
 ```css
 /* Glassmorphism Navbar */
@@ -99,26 +99,29 @@ backdrop-filter: blur(12px);
 background: rgba(255, 255, 255, 0.70);
 border: 1px solid rgba(255, 255, 255, 0.50);
 
-/* Gradient Glow Shadow */
+/* Gradient Glow Shadow (button hover) */
 filter: blur(10px);
 opacity: 0.6;
 transform: translateY(4px);
+
+/* Navbar shadow */
+box-shadow: 0 4px 24px rgba(169, 51, 73, 0.12);
 ```
 
 ---
 
-## 🛠️ Teknolojiler
+## 🛠️ Tech Stack
 
-| Teknoloji | Versiyon | Açıklama |
-|-----------|----------|----------|
+| Technology | Version | Description |
+|------------|---------|-------------|
 | [React](https://react.dev/) | 18+ | UI framework |
 | [Vite](https://vitejs.dev/) | 5+ | Build tool & dev server |
-| CSS3 | — | Custom design system, CSS Variables |
+| CSS3 | — | Custom design system with CSS Variables |
 | Google Fonts | — | Montserrat & Plus Jakarta Sans |
 
 ---
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 lumina-dental/
@@ -161,66 +164,66 @@ lumina-dental/
 
 ---
 
-## 🚀 Kurulum & Çalıştırma
+## 🚀 Getting Started
 
-### Gereksinimler
+### Prerequisites
 
 - Node.js `v18+`
-- npm veya yarn
+- npm or yarn
 
-### Adımlar
+### Installation
 
 ```bash
-# 1. Repoyu klonla
+# 1. Clone the repository
 git clone https://github.com/mccreative/lumina-dental.git
 
-# 2. Proje klasörüne gir
+# 2. Navigate into the project folder
 cd lumina-dental
 
-# 3. Bağımlılıkları yükle
+# 3. Install dependencies
 npm install
 
-# 4. Geliştirme sunucusunu başlat
+# 4. Start the development server
 npm run dev
 ```
 
-Tarayıcında `http://localhost:5173` adresini aç.
+Open `http://localhost:5173` in your browser.
 
-### Build
+### Build for Production
 
 ```bash
-# Production build
+# Create production build
 npm run build
 
-# Build önizleme
+# Preview the production build
 npm run preview
 ```
 
 ---
 
-## 📋 Sayfa Bölümleri
+## 📋 Page Sections
 
 ```
 ┌─────────────────────────────────┐
 │  🔝 Navbar (Glassmorphism)      │
 ├─────────────────────────────────┤
 │  🌟 Hero                        │
-│     Başlık + CTA + Rating Kartı │
+│     Headline + CTA + Rating     │
 ├─────────────────────────────────┤
-│  🦷 Uzmanlık Alanları           │
-│     4 hizmet kartı              │
+│  🦷 Services                    │
+│     4 specialty service cards   │
 ├─────────────────────────────────┤
-│  📊 İstatistik Çubuğu           │
-│     12 yıl · 4.9★ · 2000+ · 8  │
+│  📊 Stats Bar                   │
+│     12yrs · 4.9★ · 2000+ · 8   │
 ├─────────────────────────────────┤
-│  💬 Hasta Yorumları             │
-│     3 testimoniyal kartı        │
+│  💬 Patient Reviews             │
+│     3 testimonial cards         │
 ├─────────────────────────────────┤
-│  👨‍⚕️ Ekip Tanıtımı              │
-│     3 hekim kartı               │
+│  👨‍⚕️ Meet the Team              │
+│     3 dentist profile cards     │
 ├─────────────────────────────────┤
-│  📅 Randevu & İletişim          │
-│     Form + Adres + Harita       │
+│  📅 Appointment & Contact       │
+│     Form + Address + Map        │
 ├─────────────────────────────────┤
 │  📌 Footer                      │
 └─────────────────────────────────┘
@@ -228,27 +231,28 @@ npm run preview
 
 ---
 
-## 🗺️ Yol Haritası
+## 🗺️ Roadmap
 
 - [x] Design system & CSS variables
-- [x] Navbar (glassmorphism)
+- [x] Glassmorphism navbar
 - [x] Hero section
-- [x] Uzmanlık alanları
-- [x] İstatistik çubuğu
-- [x] Hasta yorumları
-- [x] Ekip tanıtımı
-- [x] Randevu formu
-- [ ] Mobil responsive iyileştirmeleri
-- [ ] Sayfa geçiş animasyonları (Framer Motion)
-- [ ] Form validasyonu
-- [ ] EmailJS entegrasyonu
-- [ ] Google Maps entegrasyonu
-- [ ] SEO optimizasyonu
-- [ ] Lighthouse performans optimizasyonu
+- [x] Services section
+- [x] Stats bar
+- [x] Patient reviews
+- [x] Team section
+- [x] Appointment & contact form
+- [ ] Mobile responsive refinements
+- [ ] Page scroll animations (Framer Motion)
+- [ ] Form validation
+- [ ] EmailJS integration
+- [ ] Google Maps integration
+- [ ] SEO optimization
+- [ ] Lighthouse performance optimization
+- [ ] Multi-language support (DE / TR / EN)
 
 ---
 
-## 👨‍💻 Geliştirici
+## 👨‍💻 Developer
 
 <div align="center">
 
@@ -256,24 +260,24 @@ npm run preview
 Frontend Developer & Digital Designer
 
 [![MCCreative](https://img.shields.io/badge/MCCreative-Portfolio-2dd4bf?style=for-the-badge)](https://github.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-38bdf8?style=for-the-badge&logo=linkedin)](https://linkedin.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-38bdf8?style=for-the-badge&logo=linkedin)](https://linkedin.com/)
 
-*Efringen-Kirchen, Baden-Württemberg, Deutschland 🇩🇪*
+*Efringen-Kirchen, Baden-Württemberg, Germany 🇩🇪*
 
 </div>
 
 ---
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
 ---
 
 <div align="center">
 
-**MCCreative** tarafından ❤️ ile tasarlandı ve geliştirildi.
+Built with ❤️ by **MCCreative**
 
-*Frontend geliştirme ve dijital tasarım hizmetleri için iletişime geçin.*
+*Frontend development & digital design services for small businesses.*
 
 </div>
