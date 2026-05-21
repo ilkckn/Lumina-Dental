@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-headline: "Montserrat", sans-serif;
+  --font-label: "Plus Jakarta Sans", sans-serif;
+
+  --primary: #2dd4bf;
+  --secondary: #38bdf8;
+  --tertiary: #fb7185;
+  --neutral: #475569;
+  --nav-background: #fefefe;
+  --bg-page: #fcfcfd;
+  --button-primary: #006b5f;
+  --button-secondary: #f9731a;
+  --button-third: #fb7185;
+
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  --gradient-primary-btn: linear-gradient(135deg, #006b5f 0%, #00668a 100%);
+  --gradient-mint-soft: linear-gradient(135deg, #f0fdfa 0%, #e6eeff 100%);
+  --gradient-hero-bg: linear-gradient(
+    160deg,
+    #f0fdfa 0%,
+    #f8f9ff 50%,
+    #eff4ff 100%
+  );
+
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-blur: blur(12px);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.5);
+
+  --shadow-sm: 0 2px 8px rgba(0, 107, 95, 0.08);
+  --shadow-md: 0 4px 20px rgba(0, 107, 95, 0.1);
+  --shadow-lg: 0 8px 40px rgba(0, 107, 95, 0.12);
+  --shadow-xl: 0 16px 64px rgba(0, 107, 95, 0.1);
+  --shadow-gradient: linear-gradient(
+    135deg,
+    var(--button-secondary) 0%,
+    var(--button-third) 100%
+  );
+}
+
+html,
+body,
+#root {
+  font-size: 62.5%;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-page);
+  font-family: var(--font-body);
+  color: var(--text-body);
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 8rem;
+}

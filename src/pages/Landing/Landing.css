@@ -1,0 +1,12 @@
+.landing {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    
+    .hero {
+        padding: 6rem;
+        background-color: var(--gradient-hero-bg);
+    }
+}
