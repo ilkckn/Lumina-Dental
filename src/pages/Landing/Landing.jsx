@@ -4,6 +4,9 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
 import heroImage from "../../assets/Landing-Images/hero.png";
 import Expertise from "../../components/Landing-Speciality/Expertise";
+import Reviews from "../../components/Landing-Reviews/Reviews";
+import LandingOurTeam from "../../components/Landing-OurTeam/LandingOurTeam";
+import LandingContact from "../../components/Landing-Contact/LandingContact";
 
 function Landing() {
   return (
@@ -43,9 +46,15 @@ function Landing() {
       <div className="expertise">
         <Expertise />
       </div>
-      <div className="comments"></div>
-      <div className="team"></div>
-      <div className="contact"></div>
+      <div className="comments">
+        <Reviews />
+      </div>
+      <div className="team">
+        <LandingOurTeam />
+      </div>
+      <div className="contact">
+        <LandingContact />
+      </div>
     </section>
   );
 }
