@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { HiOutlineMenu } from "react-icons/hi";
 import logo from "../../assets/logo/logo.png";
@@ -15,6 +15,17 @@ function Navbar() {
     window.scrollTo({ top: 0, behavior: "smooth" });
     setIsMenuOpen(false);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 820) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <section className="navbar">

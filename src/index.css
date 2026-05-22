@@ -38,7 +38,12 @@
     #facc15 100%
   );
 
-  --gradient-sixth: linear-gradient(90deg, #f0fdfa 0%, #e6eeff 50%, #fff2ec 100%);
+  --gradient-sixth: linear-gradient(
+    90deg,
+    #f0fdfa 0%,
+    #e6eeff 50%,
+    #fff2ec 100%
+  );
   --gradient-fifth: linear-gradient(135deg, #fff9b7 0%, #fe00261f 100%);
   --gradient-fourth: linear-gradient(135deg, #95fdff 0%, #ddf2ff 100%);
   --gradient-third: linear-gradient(135deg, #fb7185 0%, #f9731a 100%);
@@ -98,4 +103,10 @@ body {
   width: 100%;
   margin: 0 auto;
   padding-top: 8rem;
+}
+
+@media (max-width: 430px) {
+  .App {
+    padding-top: 7rem;
+  }
 }

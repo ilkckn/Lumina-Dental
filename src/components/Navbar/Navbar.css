@@ -280,3 +280,165 @@
     }
   }
 }
+
+/* =============================================
+   RESPONSIVE — Navbar
+   ============================================= */
+
+/* 1024px */
+@media (max-width: 1024px) {
+  .navbar nav {
+    padding: 0 3rem;
+
+    .links ul li {
+      padding: 0.5rem 1rem;
+      font-size: 1.4rem;
+    }
+
+    .appointment button {
+      font-size: 1.4rem;
+      padding: 0.9rem 1.5rem;
+    }
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .navbar nav {
+    padding: 0 3rem;
+  }
+
+  .navbar .mobile-menu-container .mobile-menu {
+    padding: 3rem 4rem;
+    padding-top: 28rem;
+
+    .mobile-logo {
+      top: 5rem;
+      h1 {
+        font-size: 2rem;
+      }
+      img {
+        width: 70px;
+      }
+    }
+
+    ul li {
+      font-size: 1.6rem;
+    }
+    button {
+      font-size: 1.4rem;
+      padding: 1rem 3rem;
+    }
+  }
+}
+
+/* 430px — Large Mobile */
+@media (max-width: 430px) {
+  .navbar {
+    height: 7rem;
+
+    nav {
+      padding: 0 2.5rem;
+      .logo h1 {
+        font-size: 1.9rem;
+      }
+      .appointment .menu-icon {
+        font-size: 2.2rem;
+      }
+    }
+  }
+
+  .navbar .mobile-menu-container .mobile-menu {
+    width: 100%;
+    padding: 3rem 3rem;
+    padding-top: 26rem;
+
+    .mobile-logo {
+      top: 4rem;
+      h1 {
+        font-size: 2rem;
+      }
+      img {
+        width: 65px;
+      }
+    }
+
+    ul {
+      gap: 1.8rem;
+      li {
+        font-size: 1.7rem;
+      }
+    }
+
+    button {
+      width: 100%;
+      font-size: 1.5rem;
+      padding: 1.2rem 2rem;
+    }
+  }
+}
+
+/* 414px */
+@media (max-width: 414px) {
+  .navbar nav {
+    padding: 0 2.2rem;
+    .logo h1 {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+/* 390px */
+@media (max-width: 390px) {
+  .navbar nav {
+    padding: 0 2rem;
+    .logo h1 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .navbar .mobile-menu-container .mobile-menu {
+    padding-top: 24rem;
+    .mobile-logo {
+      top: 3.5rem;
+      h1 {
+        font-size: 1.9rem;
+      }
+    }
+  }
+}
+
+/* 375px — Small Mobile */
+@media (max-width: 375px) {
+  .navbar nav {
+    padding: 0 1.8rem;
+    .logo h1 {
+      font-size: 1.7rem;
+    }
+    .appointment .menu-icon {
+      font-size: 2rem;
+    }
+  }
+
+  .navbar .mobile-menu-container .mobile-menu {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 22rem;
+
+    .mobile-logo {
+      h1 {
+        font-size: 1.8rem;
+      }
+      img {
+        width: 60px;
+      }
+    }
+
+    ul li {
+      font-size: 1.6rem;
+    }
+    button {
+      font-size: 1.4rem;
+    }
+  }
+}
