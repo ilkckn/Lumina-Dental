@@ -16,26 +16,44 @@
   --secondary: #38bdf8;
   --tertiary: #fb7185;
   --neutral: #475569;
+  --yellow: #facc15;
   --nav-background: #fefefe;
   --bg-page: #fcfcfd;
   --button-primary: #006b5f;
   --button-secondary: #f9731a;
   --button-third: #fb7185;
+  --button-fourth: #0a563a;
+
+  --footer-border: 1px solid #e2e2e2;
 
   --gradient-primary: linear-gradient(
     135deg,
     var(--color-primary) 0%,
     var(--color-secondary) 100%
   );
+  --gradient-secondary: linear-gradient(
+    135deg,
+    #fb7185 0%,
+    #f9731a 50%,
+    #facc15 100%
+  );
+
+  --gradient-sixth: linear-gradient(90deg, #f0fdfa 0%, #e6eeff 50%, #fff2ec 100%);
+  --gradient-fifth: linear-gradient(135deg, #fff9b7 0%, #fe00261f 100%);
+  --gradient-fourth: linear-gradient(135deg, #95fdff 0%, #ddf2ff 100%);
+  --gradient-third: linear-gradient(135deg, #fb7185 0%, #f9731a 100%);
+  --gradient-bg: linear-gradient(135deg, #fb7185 0%, #38bdf8 100%);
   --gradient-primary-btn: linear-gradient(135deg, #006b5f 0%, #00668a 100%);
   --gradient-mint-soft: linear-gradient(135deg, #f0fdfa 0%, #e6eeff 100%);
   --gradient-hero-bg: linear-gradient(
-    160deg,
-    #f0fdfa 0%,
+    95deg,
+    #ffe8eb 0%,
     #f8f9ff 50%,
-    #eff4ff 100%
+    #e2ebff 100%
   );
+  --gradient-card-bg: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
 
+  --button-primary: #8c8c8c;
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-blur: blur(12px);
   --glass-border: 1px solid rgba(255, 255, 255, 0.5);

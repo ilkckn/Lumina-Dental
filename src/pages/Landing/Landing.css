@@ -1,12 +1,164 @@
 .landing {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding: 4rem;
-    
-    .hero {
-        padding: 6rem;
-        background-color: var(--gradient-hero-bg);
+  width: 100%;
+  /* margin-top: 1.5rem; */
+  display: flex;
+  flex-direction: column;
+  /* padding: 4rem; */
+
+  .hero {
+    background: var(--gradient-hero-bg);
+    padding: 8rem 6rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 1.5rem;
+
+    .content-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+
+      p:nth-child(1) {
+        width: fit-content;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.4rem;
+        font-family: var(--font-headline);
+        font-weight: 600;
+        color: var(--tertiary);
+        padding: 1rem 2.5rem;
+        background-color: white;
+        border-radius: 3rem;
+      }
+
+      .main-header {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 6.3rem;
+
+        h1:nth-child(1) {
+          font-size: 5.6rem;
+          font-family: var(--font-headline);
+          font-weight: 700;
+          letter-spacing: -1px;
+          word-spacing: -3px;
+        }
+
+        h1:nth-child(2) {
+          font-size: 5.6rem;
+          font-family: var(--font-headline);
+          font-weight: 700;
+          letter-spacing: -2px;
+          word-spacing: -5px;
+          background: var(--gradient-secondary);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+      }
+
+      .desc {
+        margin-top: 1rem;
+        font-size: 1.9rem;
+        font-weight: 400;
+        font-family: var(--font-body);
+        line-height: 3rem;
+        letter-spacing: 0.3px;
+        color: var(--neutral);
+      }
+
+      .btns {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+
+        button:nth-child(1) {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          padding: 1.5rem 3rem;
+          font-size: 1.6rem;
+          font-family: var(--font-body);
+          font-weight: 600;
+          color: white;
+          background: var(--gradient-primary-btn);
+          border-radius: 3rem;
+          border: none;
+          cursor: pointer;
+          transition: all 0.2s ease-in-out;
+
+          .right-arrow {
+            transition: all 0.2s ease-in-out;
+            transform: translateY(0.1rem);
+            font-size: 2rem;
+          }
+
+          &:hover {
+            transform: translateY(-0.2rem);
+            box-shadow: 1px 4px 15px #006b5f62;
+          }
+
+          &:hover .right-arrow {
+            transform: translateY(0.1rem) translateX(0.3rem);
+          }
+        }
+
+        button:nth-child(2) {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.6rem;
+          padding: 1.5rem 3rem;
+          font-size: 1.6rem;
+          font-family: var(--font-body);
+          font-weight: 600;
+          color: white;
+          background: var(--gradient-third);
+          border-radius: 3rem;
+          border: none;
+          cursor: pointer;
+          transition: all 0.2s ease-in-out;
+
+          .right-arrow {
+            transform: translateY(0.1rem);
+            font-size: 1.5rem;
+            transition: all 0.2s ease-in-out;
+          }
+
+          &:hover {
+            transform: translateY(-0.2rem);
+            box-shadow: 1px 4px 15px #f9731a62;
+          }
+
+          &:hover .right-arrow {
+            transform: translateY(0.1rem) translateX(0.3rem);
+          }
+        }
+      }
     }
+
+    .content-right {
+      width: 100%;
+      border-radius: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .image {
+        width: 60rem;
+        height: auto;
+        border-radius: 3rem;
+
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          border-radius: 3rem;
+        }
+      }
+    }
+  }
 }
