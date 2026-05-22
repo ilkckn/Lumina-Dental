@@ -146,6 +146,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
 
       .image {
         width: 60rem;
@@ -156,11 +157,67 @@
           width: 100%;
           height: auto;
           object-fit: cover;
+          border: 8px solid white;
           border-radius: 3rem;
+        }
+      }
+
+      .rating-situation {
+        position: absolute;
+        bottom: 4rem;
+        left: -2rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background: var(--glass-bg);
+        border: var(--glass-border);
+        backdrop-filter: var(--glass-blur);
+        padding: 1rem 2.5rem;
+        border-radius: 1rem;
+        animation: bounce 3.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+
+
+        .icon {
+          font-size: 2.5rem;
+          background: var(--gradient-third);
+          color: white;
+          padding: 0.5rem;
+          border-radius: 0.5rem;
+
+          .star-icon {
+            transform: translateY(0.1rem);
+          }
+        }
+
+        .rating-info {
+          display: flex;
+          flex-direction: column;
+          gap: 0.2rem;
+
+          p:nth-child(1) {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-body);
+          }
+
+          p:nth-child(2) {
+            font-size: 1.3rem;
+            color: var(--text-body);
+          }
         }
       }
     }
   }
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(-24px); animation-timing-function: ease-in; }
+  45%  { transform: translateY(0);     animation-timing-function: ease-out; }
+  55%  { transform: translateY(-8px);  animation-timing-function: ease-in; }
+  65%  { transform: translateY(0);     animation-timing-function: ease-out; }
+  72%  { transform: translateY(-3px);  animation-timing-function: ease-in; }
+  80%  { transform: translateY(0);     animation-timing-function: ease-out; }
+  100% { transform: translateY(-24px); animation-timing-function: ease-in; }
 }
 
 /* =============================================

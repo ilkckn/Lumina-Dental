@@ -1,6 +1,6 @@
 import "./Landing.css";
 import { BiSolidLeaf } from "react-icons/bi";
-import { MdKeyboardArrowRight } from "react-icons/md";
+import { MdKeyboardArrowRight, MdStar } from "react-icons/md";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
 import heroImage from "../../assets/Landing-Images/hero.png";
 import Expertise from "../../components/Landing-Speciality/Expertise";
@@ -41,8 +41,18 @@ function Landing() {
           <div className="image">
             <img src={heroImage} alt="Hero" />
           </div>
+          <div className="rating-situation">
+            <div className="icon">
+              <MdStar className="star-icon"/>
+            </div>
+            <div className="rating-info">
+              <p>5.0 Perfect</p>
+              <p>2.000 Happy Patients</p>
+            </div>
+          </div>
         </div>
       </div>
+
       <div className="expertise">
         <Expertise />
       </div>
