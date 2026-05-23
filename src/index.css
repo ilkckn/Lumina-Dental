@@ -27,19 +27,25 @@
   --button-fifth: #00629e;
   --button-sixth: #d2a800;
 
-  --footer-border: 1px solid #e2e2e2;
-
-  --bg-green: #E1F5EE;
-  --bg-blue: #E0F7FF;
+  --bg-green: #e1f5ee;
+  --bg-green-dark: #006B5F;
+  --bg-green-button: #237F75;
+  --bg-blue: #e0f2ff;
+  --bg-blue-soft: #EFF4FF;
   --bg-yellow: #fffac7;
   --bg-pink: #ffeff1;
+  
+  --border-grey: #d5d5d5;
   --border-green: #2dd4bf;
+  --border-blue: #9edbff;
+  --border-pink: #f99aac;
+  --footer-border: 1px solid #e2e2e2;
+  --card-border: 1px solid #c2c2c2;
+  --card-border-blue: 3px solid #30b3ff;
+  --card-border-green: 3px solid #2dd4bf;
+  --card-border-pink: 3px solid #f99aac;
 
-  --gradient-primary: linear-gradient(
-    135deg,
-    var(--color-primary) 0%,
-    var(--color-secondary) 100%
-  );
+  --gradient-primary: linear-gradient(135deg, #006b5f 0%, #2dd4bf 100%);
   --gradient-secondary: linear-gradient(
     135deg,
     #fb7185 0%,

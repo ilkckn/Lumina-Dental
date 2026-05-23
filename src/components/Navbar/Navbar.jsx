@@ -38,28 +38,28 @@ function Navbar() {
         <div className="links">
           <ul>
             <li>
-              <NavLink to="/" onClick={scrollToTop}>
+              <NavLink to="/" onClick={scrollToTop} end>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" onClick={scrollToTop}>
+              <NavLink to="/services" onClick={scrollToTop}>
                 Services
               </NavLink>
             </li>
             <li>
-              <NavLink to="/services" onClick={scrollToTop}>
+              <NavLink to="/technology" onClick={scrollToTop}>
                 Technology
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" onClick={scrollToTop}>
+              <NavLink to="/our-story" onClick={scrollToTop}>
                 Our Story
               </NavLink>
             </li>
             <li>
-              <NavLink to="/appointment" onClick={scrollToTop}>
-                Wellness
+              <NavLink to="/our-team" onClick={scrollToTop}>
+                Team
               </NavLink>
             </li>
           </ul>
@@ -87,23 +87,23 @@ function Navbar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/about" onClick={scrollToTop}>
+                <NavLink to="/services" onClick={scrollToTop}>
                   Services
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/services" onClick={scrollToTop}>
+                <NavLink to="/technology" onClick={scrollToTop}>
                   Technology
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/contact" onClick={scrollToTop}>
+                <NavLink to="/our-story" onClick={scrollToTop}>
                   Our Story
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/appointment" onClick={scrollToTop}>
-                  Wellness
+                <NavLink to="/our-team" onClick={scrollToTop}>
+                  Our Team
                 </NavLink>
               </li>
             </ul>

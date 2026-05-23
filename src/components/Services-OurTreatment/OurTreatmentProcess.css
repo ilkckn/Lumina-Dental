@@ -1,0 +1,215 @@
+.our-treatment-process-container {
+  display: grid;
+  padding: 8rem 6rem;
+  gap: 4rem;
+  background: #F8F9FF;
+
+  .headers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+
+    h2 {
+      font-size: 2.3rem;
+      font-family: var(--font-headline);
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    p {
+      width: 100%;
+      max-width: 80rem;
+      font-size: 1.7rem;
+      font-family: var(--font-headline);
+      font-weight: 400;
+      line-height: 2.5rem;
+      letter-spacing: 0.5px;
+      text-align: center;
+    }
+  }
+
+  .processes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 0.1rem;
+      background: var(--border-blue);
+    }
+
+    .process-card:nth-child(1),
+    .process-card:nth-child(3) {
+      min-height: 35rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 2rem;
+      padding: 2rem 5.5rem;
+      background: #F8F9FF;
+      z-index: 1;
+
+      .icon {
+        border: 3px solid var(--border-green);
+        background: white;
+        width: 7rem;
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        box-shadow: var(--shadow-md);
+        position: relative;
+
+        .user-icon {
+          font-size: 3rem;
+          color: var(--button-fourth);
+        }
+
+        span {
+          position: absolute;
+          top: -0.5rem;
+          right: -0.1rem;
+          background: var(--button-fourth);
+          color: white;
+          padding: 0.6rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          font-size: 1.1rem;
+        }
+      }
+
+      h2 {
+        font-size: 1.9rem;
+        font-family: var(--font-headline);
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1.4rem;
+        font-family: var(--font-body);
+        font-weight: 400;
+        line-height: 2.2rem;
+        letter-spacing: 0.5px;
+        text-align: center;
+      }
+    }
+
+    .process-card:nth-child(2) {
+      .icon {
+        border: var(--card-border-blue);
+
+        span {
+          background: var(--button-fifth);
+        }
+
+        .user-icon {
+          color: var(--button-fifth);
+        }
+      }
+    }
+
+    .process-card:nth-child(3) {
+      .icon {
+        border: var(--card-border-pink);
+
+        span {
+          background: var(--button-third);
+        }
+
+        .user-icon {
+          color: var(--button-third);
+        }
+      }
+    }
+
+    .process-card:nth-child(4) {
+      .icon {
+        border: var(--card-border-green);
+
+        span {
+          background: var(--button-fourth);
+        }
+
+        .user-icon {
+          color: var(--button-fourth);
+        }
+      }
+    }
+
+    .process-card:nth-child(2),
+    .process-card:nth-child(4) {
+      min-height: 35rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 2rem;
+      padding: 2rem 5.5rem;
+      z-index: 1;
+
+      .icon {
+        background: white;
+        width: 7rem;
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        box-shadow: var(--shadow-md);
+        position: relative;
+
+        .user-icon {
+          font-size: 3rem;
+        }
+
+        span {
+          position: absolute;
+          top: -0.5rem;
+          right: -0.1rem;
+          color: white;
+          padding: 0.6rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          font-size: 1.1rem;
+        }
+      }
+
+      h2 {
+        font-size: 1.9rem;
+        font-family: var(--font-headline);
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1.4rem;
+        font-family: var(--font-body);
+        font-weight: 400;
+        line-height: 2.2rem;
+        letter-spacing: 0.5px;
+        text-align: center;
+      }
+    }
+  }
+}

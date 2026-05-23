@@ -57,17 +57,26 @@
 
         li {
           padding: 0.5rem 1.5rem;
-          font-family: var(--font-body);
-          font-size: 1.5rem;
-          font-weight: 400;
-          letter-spacing: -0.5px;
-          color: var(--neutral);
-          cursor: pointer;
           transition: all 0.2s ease-in-out;
 
           a {
+            font-family: var(--font-body);
+            font-size: 1.5rem;
+            font-weight: 400;
+            letter-spacing: -0.5px;
+            color: var(--neutral);
+            cursor: pointer;
             text-decoration: none;
             color: inherit;
+          }
+
+          a.active {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--tertiary);
+            scale: 1.06;
+            border-bottom: 1px solid var(--tertiary);
+            padding-bottom: .2rem;
           }
 
           &:hover {
